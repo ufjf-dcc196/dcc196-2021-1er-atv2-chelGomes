@@ -3,49 +3,55 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="335dp"
-        android:layout_height="32dp"
+        android:layout_width="287dp"
+        android:layout_height="24dp"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
         android:text="Tai Kamiya"
-        android:textSize="26sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView3"
-        android:layout_width="332dp"
-        android:layout_height="35dp"
-        android:layout_marginTop="16dp"
-        android:text="TextView"
-        android:textSize="26sp"
+        android:id="@+id/textView2"
+        android:layout_width="289dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="8dp"
+        android:text="Treinador de Digimon"
         app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <ScrollView
-        android:layout_width="335dp"
-        android:layout_height="427dp"
+        android:layout_width="290dp"
+        android:layout_height="400dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/textView3"
-        app:layout_constraintStart_toStartOf="@+id/textView3"
-        app:layout_constraintTop_toBottomOf="@+id/textView3">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.0">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical" />
+        <TextView
+            android:layout_width="260sp"
+            android:layout_height="125sp"
+            android:text="Taichi Kamiya , chamado no Japao e em Portugal de Taichi Yagami (八神　太一 Yagami Taichi), mais conhecido pelo apelido Tai (太), e um personagem da franquia Digimon.  Tai e um garoto aventureiro, atletico, carismatico e com um grande senso de lideranca, qualidades que o tornam facilmente um lider.  Ele e o melhor amigo de Sora e os dois dividem uma paixao por futebol.  Em Adventure 02, Tai se tornou mais paciente e faz parte do time de futebol da sua escola. Sua melhor amiga é Sora Takenouchi, que já era sua companheira tanto nas partidas de futebol quanto nas batalhas do Digimundo na primeira temporada do anime. Ele auxilia a nova geração de DigiEscolhidos diversas vezes, especialmente o novo líder, Davis Motomiya, para quem Tai passou os seus óculos. Apesar de mais velho, Tai mantém seu senso de humor e continua fazendo piadas sobre outros personagens. Ele, assim como outros DigiEscolhidos, mora em Odaiba. Tanto a aparência quanto a personalidade de Tai foram criados por Katsuyoshi Nakatsuru. Em uma entrevista exclusiva com Satoru Nishizono, um dos produtores dos animes da franquia, foi revelado que a equipe de produção escolheu esse nome para o personagem por que ele tem um kanji que está relacionado à sorte. A história de Tai em Adventure começa no filme Digimon Adventure, que é um prólogo para a série de TV. Ainda criança, Tai e sua irmã Kari recebem por computador um Digiovo contendo um Botamon, que com o tempo evolui até a forma de Agumon. Quando um Parrotmon aparece, Agumon se Digievolui num Greymon para proteger Tai e Kari. No final da luta, um grande portal se abre no céu e leva ambos os Digimons. Essa experiência levou Tai, Kari e seus amigos que assistiram a luta a se tornarem DigiEscolhidos quatro anos mais tarde.Utilizando seu Digivice ele faz com que Agumon atinja a forma de Greymon.">
+
+        </TextView>
+
+
     </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
